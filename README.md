@@ -1,42 +1,34 @@
 # Activity-Detection
 Michael Wu's Activity Detection PyTorch Pipeline
 
-# Link To Model Weights
-```bash
-https://drive.google.com/drive/folders/1WpXRZufWkWNnZV7-rLQLcWl6QNvG1vGy?usp=sharing
-```
+---
 
-# Classification Model
-PyTorch pipeline to predict activity on videos.
+## Link to Model Weights
+Download the pretrained model weights here:  
+[Google Drive Folder](https://drive.google.com/drive/folders/1WpXRZufWkWNnZV7-rLQLcWl6QNvG1vGy?usp=sharing)
 
-## Example predictions
+---
 
+## Classification Model
+This PyTorch pipeline predicts activities in videos using deep learning.
 
-<div style="display: flex; gap: 10px; justify-content: center;">
+---
 
-  <video width="200" controls>
-    <source src="basketball.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+## Example Predictions
 
-  <video width="200" controls>
-    <source src="basketball_2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+Here are some example activity videos demonstrated as GIFs:
 
-  <video width="200" controls>
-    <source src="benchpress.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div style="display: flex; gap: 20px; justify-content: center;">
 
-  <video width="200" controls>
-    <source src="bow.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="benchpress-ezgif.com-video-to-gif-converter.gif" width="200" alt="Benchpress activity gif" />
 
-  <video width="200" controls>
-    <source src="makeup.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="bow-ezgif.com-video-to-gif-converter.gif" width="200" alt="Bow activity gif" />
+
+  <img src="makeup-ezgif.com-video-to-gif-converter.gif" width="200" alt="Makeup activity gif" />
 
 </div>
+
+---
+
+To do:
+`Segmentation ability` as of 6/12/25
